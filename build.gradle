@@ -8,8 +8,10 @@ repositories {
     mavenCentral()
 }
 
+// Modified
 application {
-    mainClass.set("Duke")
+//    mainClass.set("Duke")
+    mainClass.set("Launcher")
 }
 
 shadowJar {
